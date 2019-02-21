@@ -4,14 +4,14 @@ M=str(input())
 
 F=str(input())
 
-a=[]
+b=[]
 
 for i in range(0,len(M)):
 
     if(M[i]==F[i]):
 
-        a.append(M[i])
+        b.append(M[i])
 
-c=''.join(a)
+c=''.join(b)
 
 print(c)
